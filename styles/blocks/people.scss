@@ -7,7 +7,7 @@
 	display: grid;
 	gap: 10px 30px;
 	justify-content: center;
-	grid-template-columns: repeat(var(--column-count), 1fr);
+	grid-template-columns: repeat(var(--column-count), 200px);
 
 	@media (min-width: 1000px) {
 		--column-count: 4;
