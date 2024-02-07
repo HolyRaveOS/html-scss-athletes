@@ -7,16 +7,14 @@
   display: grid;
   gap: 10px 30px;
   justify-content: center;
-  grid-template-columns: repeat(var(--column-count), 1fr); }
+  grid-template-columns: repeat(var(--column-count), 200px); }
   @media (min-width: 1000px) {
     .people {
       --column-count: 4; } }
 
 .person {
   position: relative;
-  max-width: 200px;
   margin: 0 auto;
-  width: 100%;
   text-align: center;
   cursor: pointer; }
   .person::before {
